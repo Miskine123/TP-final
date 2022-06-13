@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#Datetimestamp
+{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+   
+    text-decoration: none;
+    font-size: x-large;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    width: 117px;
+    color: rgb(255, 255, 255);
+    border: blue solid 1px;
+    background-color: #253b89;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(41, 34, 172, 0.879), 0 10px 20px 0 rgba(6, 0, 0, 0.879);
+
+}
+#DatetimeValue{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+   
+    text-decoration: none;
+    font-size: x-large;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    width: 117px;
+    color: rgb(255, 255, 255);
+    border: blue solid 1px;
+    background-color: #253b89;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(41, 34, 172, 0.879), 0 10px 20px 0 rgba(6, 0, 0, 0.879);
+
+}
+
+.background {
+    position: fixed;
+    /*margin-top: 150px;*/
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-image: url('/images/505757-sony-envisage-de-vendre-des-voitures-electriques.jpeg');
+    /* arriere plan de ma page*/
+    background-size: 100%;
+    /*taille de mon arriere plan*/
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(18, 45, 163);
+    position: fixed;
+    width: 100%;
+
+}
+
+span::before {
+    content: "";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+}
+
+/*                       menu de navigation                     */
+.nav {
+
+    height: 50px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+
+
+}
+
+.header {
+    background-color: rgb(219, 219, 219);
+    position: fixed;
+    top: 0px;
+    text-align: center;
+
+    height: 180px;
+    width: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: x-large;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    width: 117px;
+    color: rgb(255, 255, 255);
+    border: blue solid 1px;
+    background-color: #253b89;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(41, 34, 172, 0.879), 0 10px 20px 0 rgba(6, 0, 0, 0.879);
+
+}
+
+.nav a:hover {
+    background-color: #647bd1;
+    color: rgb(202, 157, 157);
+}
+
+
+.grilleimg {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+    align-content: space-around;
+    justify-items: center;
+
+
+}
+
+section {
+    margin-top: 180px;
+    padding: 15px;
+    height: 500px;
+   
+   
+}
+.sectionpage3 {
+    margin-top: 180px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+section333 {
+    margin-top: 180px;
+    padding: 15px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     align-content: space-around;
+}
+
+.vignette {
+    margin: 20px;
+    clear: both;
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(41, 34, 172, 0.879), 0 10px 20px 0 rgba(6, 0, 0, 0.879);
+}
+
+
+
+@keyframes animate {
+
+    0% {
+        content: "de vente auto Miskine";
+    }
+
+    50% {
+        content: "de vente auto Miskine ";
+    }
+
+    85% {
+        content: "de vente auto Miskine";
+    }
+
+}
+
+
+/* deuxieme page*/
+
+
+
+
+
+/*                            page 3                               */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding:25px;
+}
+.formulaire{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*               page 5                     */
+.videodiv{
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0 4px 8px 0 rgba(41, 34, 172, 0.879), 0 10px 20px 0 rgba(6, 0, 0, 0.879);
+}
+.gallery {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+    align-content: space-around;
+    justify-items: center;
+
+
+}
+
+.gallon {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+align-items: center;
+  }
+  
+  div.gallon:hover {
+    border: 1px solid #777;
+  }
+  
+.gallon img{
+    width:80%;
+    height: 75%;
+}
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  .city {
+    background-color: rgb(71, 102, 255);
+    color: white;
+    border: 2px solid black;
+    margin: 150px;
+    padding: 100px;
+  }
+ /*     La page à propos         */
+  
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+  }
+ 
+  body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .heron {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: blue;
+    
+  }
+  
+  .porte h3 {
+    text-align: center;
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #62aa04;
+    width: 0%;
+  }
+  
+  .content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+    justify-items: center;
+  }
+  
